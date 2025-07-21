@@ -147,13 +147,15 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 60px;
 }
 
 .logo {
-    font-size: 28px;
-    font-weight: 700;
-    color: var(--secondary-color);
+    height: 70%;
+}
+
+.logo img {
+    height: 100%;
 }
 
 .nav-links {
@@ -201,15 +203,15 @@ img {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    height: 70vh;
     min-height: 600px;
-    background: url('hero-2.jpg') no-repeat center center/cover;
+    background: url('images/truck.png') no-repeat center center/cover;
     position: relative;
     display: flex;
     align-items: center;
     text-align: center;
     color: var(--white);
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .hero-overlay {
@@ -253,7 +255,7 @@ img {
 .stats {
     background-color: var(--primary-color);
     color: var(--white);
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .stats .container {
@@ -464,7 +466,7 @@ img {
 /* Contact Section */
 .contact-container {
     display: flex;
-    gap: 50px;
+    /* gap: 50px; */
     margin-top: 50px;
 }
 
@@ -693,10 +695,10 @@ img {
 @media (max-width: 768px) {
     .navbar .nav-links {
         position: fixed;
-        top: 80px;
+        top: 60px;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 80px);
+        height: calc(100vh - 60px);
         background-color: var(--white);
         flex-direction: column;
         align-items: center;
